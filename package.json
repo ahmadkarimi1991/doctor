@@ -1,0 +1,29 @@
+{
+  "name": "doctor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "postcss ./src/css/**/*.css -o ./public/css/app.css -w",
+    "build:css": "postcss ./src/css/app.css -o ./public/css/app.css",
+    "production:css": "NODE_ENV=production postcss ./src/css/app.css -o ./public/css/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadkarimi1991/doctor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmadkarimi1991/doctor/issues"
+  },
+  "homepage": "https://github.com/ahmadkarimi1991/doctor#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.6",
+    "postcss-cli": "^9.0.1",
+    "tailwindcss": "^2.2.16"
+  },
+  "dependencies": {
+    "win-node-env": "^0.4.0"
+  }
+}
